@@ -6,10 +6,12 @@ A simple Arduino library for the PCF8574 I2C IO expander.
 - Initialize with I2C address
 - digitalRead(pin) — Read pin state
 - digitalWrite(pin, HIGH/LOW) — Set pin output
+- Default pin output state is HIGH when initialized. Ideal for controlling **active LOW relay modules**.
+- Supports Arduino, ESP8266, ESP32, and compatible boards.
 
 ## Installation
 - Download from [Releases](https://github.com/HS3UKA/HS3UKA_PCF8574/releases)
-- Or install directly via Arduino Library Manager (after submission)
+- Or install directly via Arduino Library Manager
 
 ## Example
 
